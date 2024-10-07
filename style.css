@@ -7,9 +7,6 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     background-color: #f4f4f4;
     color: #333;
     display: flex;
@@ -35,7 +32,6 @@ nav ul {
     margin-inline: auto;
     justify-content: space-evenly;
     list-style: none;
-    padding: 0;
 }
 
 nav ul li {
@@ -59,6 +55,7 @@ section {
 }
 
 #services {
+    width: 100%;
     display: flex;
     gap: 1rem;
 }
